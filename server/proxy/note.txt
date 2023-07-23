@@ -1,0 +1,4 @@
+curl -x http://127.0.0.1:8080 \
+    --proxy-user username:password \
+    -L http://127.0.0.1:7999/login \
+    -X POST -d "password=123"
